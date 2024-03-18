@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+form{
+    position: absolute;
+    top: 10%;
+    left: 35%;
+    width: 25vw;
+    height: 80vh;
+    background-color: rgb(57, 57, 57);
+    border-radius: 20px;
+    padding: 2vw;
+}
+
+.display{
+    display: flex;
+   justify-content: flex-end;
+}
+
+
+.display input{
+    background-color: rgb(57, 57, 57);
+    height: 7vh;
+    width: 10vw;
+    font-size: 12rem;
+    text-align: right;
+    box-shadow: none;
+    font-size: 2rem;
+    border: none;
+    outline: none;
+    flex: 1;
+}
+
+.rows{
+    margin-top: 2vh;
+}
+
+
+.row1,.row2,.row3,.row4,.row5{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2vw;
+    align-items: center;
+    
+}
+
+.rows input{
+    background-color: rgb(57, 57, 57);
+    box-shadow: -8px -8px 10px rgba(255,255,255,0.1), 5px 5px 15px rgba(0,0,0,0.3);
+    width: 3.5vw;
+    height: 8.5vh;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 0;
+    overflow: 0;
+    font-size: 1.4rem;
+}
+
+.row5 .equal{
+    width: 10vw;
+}
